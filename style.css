@@ -49,8 +49,8 @@ body{
 }
 
 .advertencia{
-    display: inline-block;
-    width: 500;
+    display: block;
+    align-items: center;
 }
 
 .logonot{
@@ -58,13 +58,18 @@ body{
 }
 
 .not{
-    max-width: 250px;
-    height: 18px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
     color: rgb(107, 113, 120);
-    margin: 0;
+}
+
+.btnencript{
+    display: block;
+}
+
+.btndecript{
+    display: block;
 }
